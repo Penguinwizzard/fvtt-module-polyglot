@@ -10,7 +10,7 @@ class PolyGlot {
 
     static async getLanguages() {
         switch (game.system.id) {
-            case "d35e":
+            case "D35E":
             case "dnd5e":
             case "dnd5eJP":
             case "pf1":
@@ -269,7 +269,7 @@ class PolyGlot {
 
     setup() {
         switch (game.system.id) {
-            case "d35e":
+            case "D35E":
             case "dnd5e":
                 this.loadLanguages("forgottenrealms");
                 break;
